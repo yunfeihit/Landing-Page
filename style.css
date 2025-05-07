@@ -8,13 +8,22 @@ a {
   color: white;
 }
 
-.header {
+/*the header part start*/
+.container-above {
   background-color: #1F2937;
+  width: 100%;
+  padding: 50px 0;
+}
+
+
+.header {
   display: flex;
   align-items: center;
   font-size: 36px;
   justify-content: space-between;
   padding: 10px 20px;
+  margin: 0 15vw;
+  padding-bottom: 15vh;
 }
 
 .logo {
@@ -22,6 +31,8 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin-top: 10px;
 }
 
 
@@ -29,9 +40,11 @@ a {
   font-family:"Lavishly Yours", cursive;
   color: white;
   font-weight: bold;
-  font-size: 58px;
-  padding-bottom:0;
+  font-size: 48px;
+  padding:0;
   margin-bottom: 0;
+  word-spacing: 15px;
+  line-height: 1em;
 }
 
 .logo-two {
@@ -40,9 +53,115 @@ a {
   color: gold;
   padding-top: 0;
   margin-top:0;
+  text-align: center;
 }
 
 .header-link {
   display: flex;
-  gap: 20px;
+  gap: 2vw;
+  font-size: 18px;
 }
+
+.intro {
+  display: flex;
+  width: 70vw;
+  margin: auto;
+  color: white;
+}
+
+.intro-left {
+  padding: 10px;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 5px 15px;
+  color: white;
+}
+/*the header part end*/
+
+/* the middle part start*/
+.container-middle {
+  width: 70vw;
+  margin: auto;
+}
+
+.container-middle h2 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.container-cards {
+  display: flex;
+}
+
+.img-card {
+  width: 25%;
+  margin: 15px;
+}
+
+.img-card img {
+  display: block;
+  border: 2px solid #3882F6;
+  border-radius: 8px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.img-card p {
+  text-align: center;
+  padding: 10px;
+}
+/*the middle part end*/
+
+/*the quote part start*/
+.quote {
+  background-color: #E5E7EB;
+  padding: 40px 0 60px 0;
+}
+.quote p {
+  width: 70vw;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.quote span {
+  display: block;
+  text-align:right;
+  width: 65vw;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size:larger;
+}
+/*the quote part end*/
+
+.sign {
+  width: 70vw;
+  margin: 100px auto;
+  background-color: #3882F6;
+  display: flex;
+  color: white;
+  padding: 50px 120px;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.sign .para p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #1F2937;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+}
+
